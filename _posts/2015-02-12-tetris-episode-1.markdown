@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Tetris"
+title:  "Tetris - Episode 1"
 date:   2015-02-11 19:00:00
 category: series
 tags: tetris series
