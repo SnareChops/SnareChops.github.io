@@ -4,6 +4,7 @@ title:  "Tetris - Episode 1"
 date:   2015-02-12 00:01:00
 category: series
 tags: tetris series
+description: First episode in a new series where I cover the entire process of building a game from scratch using HTML/CSS/JS
 ---
 **NEW SERIES**
 
