@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Git Basics"
-date:   2015-02-11 19:00:00
+date:   2015-02-11
 categories: git help
 description: I explain two ways to use Git & Github, differences between them, and cover common issues.
 ---
