@@ -7,7 +7,7 @@ description: I explain two ways to use Git & Github, differences between them, a
 ---
 Welcome to Git Basics. In this video I tried to explain how to use Git and GitHub very simply, and cover some things that you might encounter along the way.
 
-<video width="960" height="540" style="max-width:960;max-height:540;" controls>
+<video style="width:100%;" controls>
 	<source src="http://videos.quarrantine.com?name=gitbasics.mp4" type="video/mp4">
 </video>
 _Click on the full screen button for better quality_
