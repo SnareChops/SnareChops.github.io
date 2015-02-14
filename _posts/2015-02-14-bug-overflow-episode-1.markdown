@@ -9,7 +9,7 @@ description: New series covering how to ask good questions on Stack Overflow, ho
 
 Welcome to the new series that inspired the name of this blog. Watch me throughout this series explain how to ask good questions and provide good answers on Stack Overflow, how to actually get good answers from Google, and how to debug code. The world is full of bugs, lets stop them from taking over!
 
-<video width="960" height="540" style="max-width:960;max-height:540;" controls>
+<video style="width:100%;" controls>
 	<source src="http://videos.quarrantine.com?name=bugoverflow1.mp4" type="video/mp4">
 </video>
 _Click the full screen button for a better experience_
