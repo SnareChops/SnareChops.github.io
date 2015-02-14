@@ -14,7 +14,7 @@ I wanted to do this video to show how code is written for a project like this, h
 
 I hope you like this series and I am hoping to have frequent episodes.
 
-<video width="960" height="540" style="max-width:960;max-height:540;" controls>
+<video style="width:100%;" controls>
 	<source src="http://videos.quarrantine.com?name=tetris1.mp4" type="video/mp4">
 </video>
 _Click the full screen button for a better experience_
