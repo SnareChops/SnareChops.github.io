@@ -9,7 +9,7 @@ angular.module('blog', [])
     self.pageInit = function(pageid){
       self.pageid = encodeURIComponent(pageid);
 
-      $http.put('http://video.quarrantine.com:8080/hit/'+self.pageid).then(function(data){
+      $http.put('http://videos.quarrantine.com:8080/hit/'+self.pageid).then(function(data){
         self.hits = data.data;
       });
 
