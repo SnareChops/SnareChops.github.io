@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Bug Overflow - Episode 1"
-date:   2015-02-13
+date:   2015-02-14
 category: series
 tags: bugoverflow series
 description: New series covering how to ask good questions on Stack Overflow, how to use Google effectively, and how to answer/debug questions and buggy code.
