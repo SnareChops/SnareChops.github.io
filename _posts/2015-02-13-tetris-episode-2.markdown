@@ -9,7 +9,7 @@ description: Second episode in the tetris series, this time I cover the javascri
 
 Welcome back to the tetris series. This time I cover the creation of the javascript that will represent our playing pieces. We also look at how to refactor our javascript into something that works better for our purposes.
 
-<video width="960" height="540" style="max-width:960;max-height:540;" controls>
+<video style="width:100%;" controls>
 	<source src="http://videos.quarrantine.com?name=tetris2.mp4" type="video/mp4">
 </video>
 _Click the full screen button for a better experience_
