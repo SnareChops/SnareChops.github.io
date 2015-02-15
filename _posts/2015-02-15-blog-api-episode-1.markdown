@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Blog API - Episode 1"
-date:   2015-02-14
+date:   2015-02-15
 category: series
 tags: blogapi series
 description: Bonus episode! New series covering some of the updates I'm doing to this blog to add some of the functionality I would like.
