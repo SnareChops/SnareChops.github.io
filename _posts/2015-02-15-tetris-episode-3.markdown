@@ -4,7 +4,7 @@ title:  "Tetris - Episode 3"
 date:   2015-02-15
 category: series
 tags: tetris series
-description: 
+description: Building the engine.
 ---
 
 Today on tetris I built out the simple game engine tick cycle, and get something to display on the screen. Lots of refactoring, but that's just how development really goes.
