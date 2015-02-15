@@ -3,7 +3,7 @@ layout: default
 ---
 <div class="post" ng-controller="PostController as controller">
 
-  <header class="post-header" ng-init="controller.pageInit('{{page.id}}')">
+  <header class="post-header" ng-init="controller.pageInit('{{post.id}}')">
     <h1 class="post-title">{{ page.title }}</h1>
     <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
     <p class="post-meta">[!controller.hits!] views</p>
