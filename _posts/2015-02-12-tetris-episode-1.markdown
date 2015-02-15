@@ -5,6 +5,7 @@ date:   2015-02-12
 category: series
 tags: tetris series
 description: First episode in a new series where I cover the entire process of building a game from scratch using HTML/CSS/JS
+postid: 21226575-8e35-8463-a1e3-35d6c8a9bf74
 ---
 **NEW SERIES**
 
