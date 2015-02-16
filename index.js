@@ -9,7 +9,7 @@ angular.module('blog', [])
     self.subscribeButtonText = 'Subscribe';
 
     self.indexInit = function(){
-      $http.get('http://videos.quarrantine.com/hits.json').then(function(data){
+      $http.get('http://videos.quarrantine.com:8080/hits.json').then(function(data){
         data.data.forEach(function(x){
           self.views[x.postid] = x.count;
         });
@@ -19,7 +19,7 @@ angular.module('blog', [])
     self.pageInit = function(pageid){
       self.pageid = encodeURIComponent(pageid);
 
-      $http.put('http://videos.quarrantine.com/hit/'+self.pageid).then(function(data){
+      $http.put('http://videos.quarrantine.com:8080/hit/'+self.pageid).then(function(data){
         self.hits = data.data;
       });
 
@@ -30,7 +30,7 @@ angular.module('blog', [])
     };
 
     self.subscribe = function(email){
-      $http.post('http://videos.quarrantine.com/subscribe', {email: email}).then(function(data){
+      $http.post('http://videos.quarrantine.com:8080/subscribe', {email: email}).then(function(data){
         self.subscribeButtonText = 'Thank you!';
         self.email = '';
       });
