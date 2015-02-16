@@ -2,10 +2,15 @@
 layout: default
 ---
 
-<div class="home">
+<div class="home" ng-init="controller.indexInit()">
 
-  <h1 class="page-heading">Posts</h1>
-
+  <div class="flex-wrapper">
+    <h1 class="page-heading">Posts</h1>
+    <form style="margin-left: auto;" ng-submit="controller.subscribe(controller.email)">
+        <input type="email" ng-model="controller.email" placeholder="Enter email to subscribe">
+        <input type="submit" ng-value="controller.subscribeButtonText">
+    </form>
+  </div>
   <ul class="post-list">
     {% for post in site.posts %}
       <li>
@@ -14,6 +19,7 @@ layout: default
         <h2>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h2>
+        <span class="post-meta">[!controller.views['{{post.postid}}']!] views</span>
         <p>{{ post.description }}</p>
       </li>
     {% endfor %}

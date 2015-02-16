@@ -5,11 +5,21 @@ angular.module('blog', [])
   }])
   .controller('PostController', ['$http', function($http){
     var self = this;
+    self.views = {};
+    self.subscribeButtonText = 'Subscribe';
+
+    self.indexInit = function(){
+      $http.get('http://quarrantine-165851.use1-2.nitrousbox.com/hits.json').then(function(data){
+        data.data.forEach(function(x){
+          self.views[x.postid] = x.count;
+        });
+      });
+    };
 
     self.pageInit = function(pageid){
       self.pageid = encodeURIComponent(pageid);
 
-      $http.put('http://videos.quarrantine.com:8080/hit/'+self.pageid).then(function(data){
+      $http.put('http://quarrantine-165851.use1-2.nitrousbox.com/hit/'+self.pageid).then(function(data){
         self.hits = data.data;
       });
 
@@ -17,6 +27,13 @@ angular.module('blog', [])
       //  self.incs = data.data.likes;
       //  self.decs = data.data.dislikes;
       //});
+    };
+
+    self.subscribe = function(email){
+      $http.post('http://quarrantine-165851.use1-2.nitrousbox.com/subscribe', {email: email}).then(function(data){
+        self.subscribeButtonText = 'Thank you!';
+        self.email = '';
+      });
     };
 
     //self.like = function(inc){
