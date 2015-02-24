@@ -15,5 +15,5 @@ Finally, after much thought I have a theory of how to get the block to rotate!
 </video>
 _Click the full screen button for a better experience_
 
-![Board 1](images/tetris8-1.png)
-![Board 2](images/tetris8-2.png)
+![Board 1](/images/tetris8-1.png)
+![Board 2](/images/tetris8-2.png)
