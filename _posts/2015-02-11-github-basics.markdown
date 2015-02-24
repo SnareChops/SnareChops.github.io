@@ -8,6 +8,8 @@ postid: ed3fe026-3b0d-c1ed-2edb-58a61459297b
 ---
 Welcome to Git Basics. In this video I tried to explain how to use Git and GitHub very simply, and cover some things that you might encounter along the way.
 
+Like this video? [Check out my other videos](http://snarechops.github.io)
+
 <video style="width:100%;" controls>
 	<source src="http://videos.quarrantine.com?name=gitbasics.mp4" type="video/mp4">
 </video>
