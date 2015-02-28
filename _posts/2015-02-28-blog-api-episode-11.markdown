@@ -1,11 +1,11 @@
 ---
 layout: post
 title:  "Blog API - Episode 11"
-date:   2015-02-27
+date:   2015-02-28
 category: series
 tags: blogapi series
 description: Taking the first steps in tying the GitHub OAuth to the front end
-postid: 113700f5-9cb6-a122-1ef0-377c163ddcc1
+postid: 41a532aa-722f-a3ec-fc41-186049575bd8
 ---
 
 We begin tying the OAuth to the blog's front end.
