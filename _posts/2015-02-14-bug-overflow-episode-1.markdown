@@ -6,6 +6,8 @@ category: series
 tags: bugoverflow series
 description: New series covering how to ask good questions on Stack Overflow, how to use Google effectively, and how to answer/debug questions and buggy code.
 postid: 8100845b-768a-a426-cec9-fe3ff0fa146f
+technologies:
+- Ruby-On-Rails
 ---
 
 Welcome to the new series that inspired the name of this blog. Watch me throughout this series explain how to ask good questions and provide good answers on Stack Overflow, how to actually get good answers from Google, and how to debug code. The world is full of bugs, lets stop them from taking over!

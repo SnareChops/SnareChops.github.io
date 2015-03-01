@@ -3,7 +3,7 @@ layout: default
 ---
 
 <div class="home" ng-init="controller.indexInit()">
-
+  <!--<button ng-click="controller.login()" type="button">Login with GitHub</button>-->
   <div class="flex-wrapper">
     <h1 class="page-heading">Posts</h1>
     <form style="margin-left: auto;" ng-submit="controller.subscribe(controller.email)">
@@ -21,6 +21,10 @@ layout: default
         </h2>
         <span class="post-meta">[!controller.views['{{post.postid}}']!] views</span>
         <p>{{ post.description }}</p>
+        <span class="post-meta">Technologies:</span>
+        {% for tech in post.technologies %}
+          <span class="label {{tech}}">{{tech}}</span>
+        {% endfor %}
       </li>
     {% endfor %}
   </ul>

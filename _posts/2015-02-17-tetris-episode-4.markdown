@@ -6,6 +6,10 @@ category: series
 tags: tetris series
 description: Moving Block!!.
 postid: 33113166-a903-32c3-7f56-9dd96973eaa3
+technologies:
+- HTML
+- CSS
+- JavaScript
 ---
 
 Today on tetris I built out the block object and get the block moving around! Enjoy!

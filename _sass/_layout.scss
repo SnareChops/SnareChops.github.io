@@ -238,3 +238,37 @@
 .flex-wrapper{
   display:flex;
 }
+
+.label{
+  display:inline;
+  padding:.2em .6em .2em;
+  font-size:75%;
+  font-weight:500;
+  line-height:1;
+  color:#ffffff;
+  text-align:center;
+  white-space:nowrap;
+  vertical-align:baseline;
+  border-radius:.25em;
+  box-sizing:border-box;
+  background-color:#777777;
+}
+.JavaScript {
+  background-color:#777777;
+}
+.Jekyll {
+  background-color:#fc0;
+  color:#222;
+}
+.Ruby-On-Rails {
+  background-color:#CC342D;
+}
+.Git {
+  background-color:#60b044;
+}
+.Angular {
+  background-color:#A6120D;
+}
+.Jasmine {
+  background-color:#8A4182;
+}

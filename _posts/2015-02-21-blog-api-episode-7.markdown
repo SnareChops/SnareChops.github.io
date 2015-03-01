@@ -6,6 +6,9 @@ category: series
 tags: blogapi series
 description: Continuing with the Blog API project and adding some extra features to the site.
 postid: 9f58a46d-8f98-05de-6f26-a4cf4dd50c36
+technologies:
+- Ruby-On-Rails
+- Docker
 ---
 
 As you are probably asking yourself, why is this episode 7 when the last one was episode 3? ... well, 4, 5, and 6 didn't go so well. I have sat on these videos for days trying to figure out the best way to put them out that give you the best content and what I decided was that I would release them all at once, and just present the latest one as the main one.

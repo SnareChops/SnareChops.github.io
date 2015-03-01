@@ -6,6 +6,8 @@ category: series
 tags: blogapi series
 description: Bonus episode! New series covering some of the updates I'm doing to this blog to add some of the functionality I would like.
 postid: 85e5c7bc-4098-b9cf-7626-16923a19cab3
+technologies:
+- Ruby-On-Rails
 ---
 
 Happy Sunday! Bonus episode covering some new updates to this site I am doing to add functionality. I need to track views, likes, and eventually comments. Watch me build out the API and see the result directly on the site.

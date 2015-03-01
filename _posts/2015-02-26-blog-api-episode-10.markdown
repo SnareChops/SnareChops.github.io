@@ -6,6 +6,8 @@ category: series
 tags: blogapi series
 description: Installing Devise for future user authentication.
 postid: 113700f5-9cb6-a122-1ef0-377c163ddcc1
+technologies:
+- Ruby-On-Rails
 ---
 
 Going through the long but simple process of adding Devise to the API for future authentication.

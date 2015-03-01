@@ -6,6 +6,10 @@ category: series
 tags: tetris series
 description: Today we refactor some of the code and get the pieces to lock into place when they hit the bottom.
 postid: b9b7d240-0148-96b0-7008-44ca53ca2bdb
+technologies:
+- HTML
+- CSS
+- JavaScript
 ---
 
 Today we refactor some of the code and get the pieces to lock into place when they hit the bottom.

@@ -6,6 +6,10 @@ category: series
 tags: tetris series
 description: First attempt at rotating.
 postid: 71254676-e181-9dd3-4a8e-934a1b0e6261
+technologies:
+- HTML
+- CSS
+- JavaScript
 ---
 
 Time to add some rotation to the blocks!

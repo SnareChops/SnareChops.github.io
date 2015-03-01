@@ -7,6 +7,8 @@ angular.module('blog', [])
     var self = this;
     self.views = {};
     self.subscribeButtonText = 'Subscribe';
+    self.authenticated = false;
+    var authInterval;
 
     self.indexInit = function(){
       $http.get('http://videos.quarrantine.com:8080/hits.json').then(function(data){
@@ -36,6 +38,16 @@ angular.module('blog', [])
       });
     };
 
+    self.login = function(){
+      authInterval = setInterval(function(){
+        $http.get('http://pink-puffy-poodle-197724.use1-2.nitrousbox.com/authenticated').then(function(data){
+          self.authenticated = (data.data === "true");
+          if(self.authenticated){clearInterval(authInterval);}
+        });
+      }, 500);
+      window.open('http://pink-puffy-poodle-197724.use1-2.nitrousbox.com/users/auth/github','Login with GitHub','width=400,height=200');
+    };
+
     //self.like = function(inc){
     //  $http.get('http://videos.quarrantine.com:8080/likes?id='+encodeURIComponent(self.pageid)+'&inc='+inc.toString()).then(function(data){
     //    self.incs = data.data.likes;
@@ -49,4 +61,4 @@ var new_key = function() {
     return s ? "-" + p.substr(0, 4) + "-" + p.substr(4, 4) : p;
   }
   return _p8() + _p8(true) + _p8(true) + _p8();
-}
+};

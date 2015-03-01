@@ -6,6 +6,9 @@ category: series
 tags: tetris series
 description: Taking the TDD approach to basic collisions.
 postid: d5c50532-df72-8e3b-69cb-892134b31ec4
+technologies:
+- JavaScript
+- Jasmine
 ---
 
 We've got ourselves a good foundation, now it's time to build in the basic collision checks. We take the TDD approach and write our unit tests first, and then the code to pass them.

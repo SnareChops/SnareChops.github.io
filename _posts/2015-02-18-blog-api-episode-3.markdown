@@ -6,6 +6,12 @@ category: series
 tags: blogapi series
 description: Tying it all together. Hooking up the rails backend with the jekyll front end using Angular modules.
 postid: 1e504836-2300-0f41-1257-fa65b5038c07
+technologies:
+- Angular
+- Jekyll
+- JavaScript
+- HTML
+- CSS
 ---
 
 Today we tie the front in with the back and get the jekyll blog to work with Angular and the rails backend.

@@ -6,6 +6,12 @@ category: series
 tags: blogapi series
 description: Adding the subscribe box.
 postid: de9b489e-1fc0-26ac-61be-c583fc60c88b
+technologies:
+- HTML
+- CSS
+- JavaScript
+- Angular
+- Jekyll
 ---
 
 Time to get that subscribe box on the page.

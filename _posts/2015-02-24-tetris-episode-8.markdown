@@ -6,6 +6,10 @@ category: series
 tags: tetris series
 description: It spins!
 postid: 58cd1b1e-3fbb-3c88-9cc8-63141f780559
+technologies:
+- HTML
+- CSS
+- JavaScript
 ---
 
 Finally, after much thought I have a theory of how to get the block to rotate!

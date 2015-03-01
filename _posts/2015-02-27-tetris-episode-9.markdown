@@ -6,6 +6,10 @@ category: series
 tags: tetris series
 description: Upgrade to the collision detection
 postid: 8c987a63-2a6e-07a2-75f2-867ce5a8ed2a
+technologies:
+- JavaScript
+- HTML
+- CSS
 ---
 
 Now that we have our blocks rotating, we need to add in collision detection for this new feature. This is going to require some refactoring. Join me for the fun!

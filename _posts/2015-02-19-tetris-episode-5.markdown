@@ -6,6 +6,10 @@ category: series
 tags: tetris series
 description: Adding controls to the game and unit testing.
 postid: 33113166-a903-32c3-7f56-9dd96973eaa3
+technologies:
+- JavaScript
+- HTML
+- CSS
 ---
 
 Finally with internet back, I am able to map the movement of the block to the keyboard, and added in some unit testing.

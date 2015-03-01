@@ -6,6 +6,10 @@ category: series
 tags: tetris series
 description: Second episode in the tetris series, this time I cover the javascript needed to represent the playing objects.
 postid: 9b27e4f2-8bf6-7341-9263-56cf1f0b4beb
+technologies:
+- HTML
+- CSS
+- JavaScript
 ---
 
 Welcome back to the tetris series. This time I cover the creation of the javascript that will represent our playing pieces. We also look at how to refactor our javascript into something that works better for our purposes.
