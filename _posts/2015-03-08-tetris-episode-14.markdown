@@ -5,7 +5,7 @@ date:   2015-03-08
 category: series
 tags: tetris series
 description: Implementing block vs block collision
-postid: 039dd447-8e6e-43ca-4842-e5993f8b61fe
+postid: 82d222a9-cd66-7927-49d1-b48c165011c3
 technologies:
 - HTML
 - CSS
