@@ -13,6 +13,6 @@ Welcome to Git Basics. In this video I tried to explain how to use Git and GitHu
 Like this video? [Check out my other videos](http://snarechops.github.io)
 
 <video style="width:100%;" controls>
-	<source src="http://videos.quarrantine.com?name=gitbasics.mp4" type="video/mp4">
+	<source src="http://videos.quarrantine.com:8000?name=gitbasics.mp4" type="video/mp4">
 </video>
 _Click on the full screen button for better quality_
