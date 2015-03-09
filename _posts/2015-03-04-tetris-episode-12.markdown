@@ -16,6 +16,6 @@ technologies:
 Welcome back! Today we get the game to insert random blocks each time, and the blocks automatically fall at about 1 space per second. Also I have a surprise for you all at the end! Looking forward to it!
 
 <video style="width:100%;" controls>
-	<source src="http://videos.quarrantine.com?name=tetris12.mp4" type="video/mp4">
+	<source src="http://videos.quarrantine.com:8000?name=tetris12.mp4" type="video/mp4">
 </video>
 _Click the full screen button for a better experience_
