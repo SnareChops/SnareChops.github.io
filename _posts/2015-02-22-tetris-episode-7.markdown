@@ -15,6 +15,6 @@ technologies:
 Time to add some rotation to the blocks!
 
 <video style="width:100%;" controls>
-	<source src="http://videos.quarrantine.com?name=tetris7.mp4" type="video/mp4">
+	<source src="http://videos.quarrantine.com:8000?name=tetris7.mp4" type="video/mp4">
 </video>
 _Click the full screen button for a better experience_
