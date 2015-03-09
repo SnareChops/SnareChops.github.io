@@ -15,6 +15,6 @@ technologies:
 Taking the next step with the blog api to add in the route for our new controller action, and then looking at the Postman chrome app that is **great** for debugging REST API endpoints.
 
 <video style="width:100%;" controls>
-	<source src="http://videos.quarrantine.com?name=blogapi2.mp4" type="video/mp4">
+	<source src="http://videos.quarrantine.com:8000?name=blogapi2.mp4" type="video/mp4">
 </video>
 _Click the full screen button for a better experience_
