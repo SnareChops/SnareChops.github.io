@@ -15,6 +15,6 @@ technologies:
 Welcome back to the tetris series. This time I cover the creation of the javascript that will represent our playing pieces. We also look at how to refactor our javascript into something that works better for our purposes.
 
 <video style="width:100%;" controls>
-	<source src="http://videos.quarrantine.com?name=tetris2.mp4" type="video/mp4">
+	<source src="http://videos.quarrantine.com?name=Tetris2.mp4" type="video/mp4">
 </video>
 _Click the full screen button for a better experience_
