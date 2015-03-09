@@ -20,6 +20,6 @@ I wanted to do this video to show how code is written for a project like this, h
 I hope you like this series and I am hoping to have frequent episodes.
 
 <video style="width:100%;" controls>
-	<source src="http://videos.quarrantine.com?name=Tetris1.mp4" type="video/mp4">
+	<source src="http://videos.quarrantine.com:8000?name=Tetris1.mp4" type="video/mp4">
 </video>
 _Click the full screen button for a better experience_
