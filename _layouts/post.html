@@ -14,5 +14,10 @@ layout: default
   <article class="post-content">
     {{ content }}
   </article>
-
+  <section>
+      <iframe id="comments" src="http://pink-puffy-poodle-197724.use1-2.nitrousbox.com/comments/{{page.postid}}" width="100%" scrolling="no" frameborder="0"></iframe>
+  </section>
+  <script type="text/javascript">
+    iFrameResize({}, '#comments');
+  </script>
 </div>
