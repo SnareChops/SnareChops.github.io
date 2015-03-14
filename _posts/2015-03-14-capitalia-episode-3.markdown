@@ -13,6 +13,8 @@ technologies:
 
 Found a gold mine this time and tracked down a working angular 2 demo app that uses nested components. Time to learn by reading other's code.
 
+[Dave Smith's ng-conf presentation](https://www.youtube.com/watch?v=XQM0K6YG18s&list=PLOETEcp3DkCoNnlhE-7fovYvqwVPrRiY7&index=33)
+
 <video style="width:100%;" controls>
 	<source src="http://videos.quarrantine.com:8000?name=capitalia3.mp4" type="video/mp4">
 </video>
