@@ -15,6 +15,6 @@ technologies:
 Now that we have our blocks rotating, we need to add in collision detection for this new feature. This is going to require some refactoring. Join me for the fun!
 
 <video style="width:100%;" controls>
-	<source src="http://videos.quarrantine.com?name=tetris9.mp4" type="video/mp4">
+	<source src="http://videos.quarrantine.com:8000?name=tetris9.mp4" type="video/mp4">
 </video>
 _Click the full screen button for a better experience_

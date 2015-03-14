@@ -15,6 +15,6 @@ technologies:
 Last time we created the new `/hits` and `/subscribe` endpoints. Now it's time to tie them in with the front-end.
 
 <video style="width:100%;" controls>
-	<source src="http://videos.quarrantine.com?name=blogapi8.mp4" type="video/mp4">
+	<source src="http://videos.quarrantine.com:8000?name=blogapi8.mp4" type="video/mp4">
 </video>
 _Click the full screen button for a better experience_

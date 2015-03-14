@@ -4,8 +4,9 @@ email: snare_chops@yahoo.com
 description: > # this means to ignore newlines until "baseurl:"
   I write code, I fix code, I complain, I joke, and hopefully.... You learn :)
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://SnareChops.github.io" # the base hostname & protocol for your site
-twitter_username: 
+#url: "http://SnareChops.github.io" # the base hostname & protocol for your site
+url: "http://localhost:4000"
+twitter_username:
 github_username: SnareChops
 timezone: America/New_York
 

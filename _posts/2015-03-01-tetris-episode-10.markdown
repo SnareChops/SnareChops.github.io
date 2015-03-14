@@ -15,6 +15,6 @@ technologies:
 Today we refactor some of the code and get the pieces to lock into place when they hit the bottom.
 
 <video style="width:100%;" controls>
-	<source src="http://videos.quarrantine.com?name=tetris10.mp4" type="video/mp4">
+	<source src="http://videos.quarrantine.com:8000?name=tetris10.mp4" type="video/mp4">
 </video>
 _Click the full screen button for a better experience_

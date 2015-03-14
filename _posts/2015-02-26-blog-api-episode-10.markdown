@@ -13,6 +13,6 @@ technologies:
 Going through the long but simple process of adding Devise to the API for future authentication.
 
 <video style="width:100%;" controls>
-	<source src="http://videos.quarrantine.com?name=blogapi10.mp4" type="video/mp4">
+	<source src="http://videos.quarrantine.com:8000?name=blogapi10.mp4" type="video/mp4">
 </video>
 _Click the full screen button for a better experience_

@@ -20,10 +20,10 @@ That being said... There is still some value in the deployment videos, like the 
 Enough of me babbling, hope you enjoy!
 
 <video style="width:100%;" controls>
-	<source src="http://videos.quarrantine.com?name=blogapi7.mp4" type="video/mp4">
+	<source src="http://videos.quarrantine.com:8000?name=blogapi7.mp4" type="video/mp4">
 </video>
 _Click the full screen button for a better experience_
 
-[Episode 4](http://videos.quarrantine.com?name=blogapi4.mp4)
-[Episode 5](http://videos.quarrantine.com?name=blogapi5.mp4)
-[Episode 6](http://videos.quarrantine.com?name=blogapi6.mp4)
+[Episode 4](http://videos.quarrantine.com:8000?name=blogapi4.mp4)
+[Episode 5](http://videos.quarrantine.com:8000?name=blogapi5.mp4)
+[Episode 6](http://videos.quarrantine.com:8000?name=blogapi6.mp4)

@@ -14,10 +14,44 @@ layout: default
   <article class="post-content">
     {{ content }}
   </article>
-  <section>
-      <iframe id="comments" src="http://pink-puffy-poodle-197724.use1-2.nitrousbox.com/comments/{{page.postid}}" width="100%" scrolling="no" frameborder="0"></iframe>
-  </section>
-  <script type="text/javascript">
-    iFrameResize({}, '#comments');
-  </script>
+  <md-toolbar class="md-theme-light md-default-theme">
+    <h1 class="md-toolbar-tools">
+      <span>Comments</span>
+    </h1>
+  </md-toolbar>
+  <md-content>
+    <md-list>
+      <md-item ng-repeat="comment in controller.comments">
+        <md-item-content>
+          <div class="md-tile-left">
+            <img ng-src="[!comment.image!]" class="comment-image">
+          </div>
+          <div class="md-title-content">
+            <h3>[!comment.username!]</h3>
+            <p>[!comment.text!]</p>
+          </div>
+        </md-item-content>
+        <md-divider md-inset></md-divider>
+      </md-item>
+      <md-item>
+        <md-item-content ng-if="controller.user == null">
+          <div class="md-tile-content">
+            <p>You must be signed in to leave comments, please <button class="github-button" ng-click="controller.login()"><span class="ion ion-social-github"></span>Login with Github</button></p>
+          </div>
+        </md-item-content>
+        <md-item-content ng-if="controller.user != null">
+          <div class="md-tile-left">
+            <img ng-src="[!controller.user.image!]" class="comment-image">
+          </div>
+          <div class="md-tile-content">
+            <h3>[!controller.user.username!]</h3>
+            <form ng-submit="controller.makeComment(controller.comment)" novalidate ng-if="controller.user != null">
+              <textarea class="full-width" ng-model="controller.comment" placeholder="Leave your comment here..."></textarea>
+              <input type="submit" value="Submit Comment">
+            </form>
+          </div>
+        </md-item-content>
+      </md-item>
+    </md-list>
+  </md-content>
 </div>

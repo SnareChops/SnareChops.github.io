@@ -14,6 +14,6 @@ technologies:
 We begin tying the OAuth to the blog's front end.
 
 <video style="width:100%;" controls>
-	<source src="http://videos.quarrantine.com?name=blogapi11.mp4" type="video/mp4">
+	<source src="http://videos.quarrantine.com:8000?name=blogapi11.mp4" type="video/mp4">
 </video>
 _Click the full screen button for a better experience_
