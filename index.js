@@ -65,6 +65,8 @@ angular.module('blog', [])
       self.makeComment = function(comment){
         $http.post('http://videos.quarrantine.com:8080/comments.json', {postid: self.pageid, comment: comment}, {withCredentials:true}).then(function(data){
           self.comment = null;
+        }, function(){
+          alert('Error making comment. Please be patient while I am working on this new feature.');
         });
       };
 
