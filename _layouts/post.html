@@ -26,7 +26,7 @@ layout: default
           <div class="md-tile-left">
             <img ng-src="[!comment.image!]" class="comment-image">
           </div>
-          <div class="md-title-content">
+          <div class="md-tile-content">
             <h3>[!comment.username!]</h3>
             <p>[!comment.text!]</p>
           </div>
@@ -49,6 +49,13 @@ layout: default
               <textarea class="full-width" ng-model="controller.comment" placeholder="Leave your comment here..."></textarea>
               <input type="submit" value="Submit Comment">
             </form>
+          </div>
+        </md-item-content>
+      </md-item>
+      <md-item>
+        <md-item-content>
+          <div class="md-tile-content">
+            <p>This feature is experimental. If you encounter any issues creating comments, please create a bug <a href="http://github.com/SnareChops/snarechops.github.io">here</a>. Thank you for supporting Grumbling Bugs!</p>
           </div>
         </md-item-content>
       </md-item>

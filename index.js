@@ -28,9 +28,11 @@ angular.module('blog', [])
       $http.get('http://videos.quarrantine.com:8080/comments/'+pageid+'.json').then(function(data){
         self.comments = data.data;
       });
-      $http.put('http://videos.quarrantine.com:8080/hit/'+self.pageid).then(function(data){
-        self.hits = data.data;
-      });
+      if(self.user == null || self.user.username !== 'SnareChops') {
+        $http.put('http://videos.quarrantine.com:8080/hit/' + self.pageid).then(function (data) {
+          self.hits = data.data;
+        });
+      }
 
       //$http.get('http://videos.quarrantine.com:8080/likes?id='+encodeURIComponent(self.pageid)).then(function(data){
       //  self.incs = data.data.likes;
