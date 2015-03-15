@@ -25,7 +25,7 @@ angular.module('blog', [])
 
     self.pageInit = function(pageid){
       self.pageid = encodeURIComponent(pageid);
-      $http.get('http://pink-puffy-poodle-197724.use1-2.nitrousbox.com/comments/'+pageid+'.json').then(function(data){
+      $http.get('http://videos.quarrantine.com:8080/comments/'+pageid+'.json').then(function(data){
         self.comments = data.data;
       });
       //$http.put('http://videos.quarrantine.com:8080/hit/'+self.pageid).then(function(data){
@@ -46,9 +46,9 @@ angular.module('blog', [])
     };
 
     self.login = function() {
-      $http.get('http://pink-puffy-poodle-197724.use1-2.nitrousbox.com/token.json', {withCredentials: true}).then(function (data) {
+      $http.get('http://videos.quarrantine.com:8080/token.json', {withCredentials: true}).then(function (data) {
         OAuth.popup('github', {state: data.data}).done(function (result) {
-          $http.post('http://pink-puffy-poodle-197724.use1-2.nitrousbox.com/authorize.json', {code: result.code}, {withCredentials: true}).then(function (data) {
+          $http.post('http://videos.quarrantine.com:8080/authorize.json', {code: result.code}, {withCredentials: true}).then(function (data) {
             localStorage.setItem('user', JSON.stringify({
               email: data.data.email,
               image: data.data.image,
@@ -63,7 +63,7 @@ angular.module('blog', [])
     };
 
       self.makeComment = function(comment){
-        $http.post('http://pink-puffy-poodle-197724.use1-2.nitrousbox.com/comments.json', {postid: self.pageid, comment: comment}, {withCredentials:true}).then(function(data){
+        $http.post('http://videos.quarrantine.com:8080/comments.json', {postid: self.pageid, comment: comment}, {withCredentials:true}).then(function(data){
           self.comment = null;
         });
       };
