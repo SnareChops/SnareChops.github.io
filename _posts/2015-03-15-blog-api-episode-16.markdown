@@ -5,7 +5,7 @@ date:   2015-03-15
 category: series
 tags: blogapi series
 description: Ditching the iFrames after much frustration and implementing a client side OAuth provider
-postid: 5392a1a8-fddd-fbe6-99f3-0c86de41110f
+postid: df0ed788-cc27-f8b3-a01f-2aff7f7c9ee2
 technologies:
 - Angular
 - HTML
