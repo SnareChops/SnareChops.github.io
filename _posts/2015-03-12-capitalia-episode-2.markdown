@@ -3,7 +3,7 @@ layout: post
 title:  "Capitalia - A Crazy Jump Into Angular 2 - Episode 2"
 date:   2015-03-12
 category: series
-tags: blogapi series
+tags: capitalia series
 description: Hey! Guess what... I found some hidden docs in the source code :)
 postid: 645e6f50-e2f6-dab8-e550-7442a6d04a73
 technologies:
