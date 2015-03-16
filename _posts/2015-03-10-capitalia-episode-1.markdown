@@ -3,7 +3,7 @@ layout: post
 title:  "Capitalia - A Crazy Jump Into Angular 2 - Episode 1"
 date:   2015-03-10
 category: series
-tags: blogapi series
+tags: capitalia series
 description: Angular just released their first alpha of 2.0, lets see if we can build something with it!
 postid: 5f0c78c9-3838-c10c-9236-320ea6abd4a4
 technologies:
