@@ -3,7 +3,7 @@ layout: post
 title:  "Capitalia - A Crazy Jump Into Angular 2 - Episode 3"
 date:   2015-03-14
 category: series
-tags: blogapi series
+tags: capitalia series
 description: If at first you don't succeed, copy from someone else :)
 postid: dcf25a69-2e56-a811-a9bd-b1f9a9f56def
 technologies:
