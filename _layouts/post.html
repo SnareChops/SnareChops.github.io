@@ -3,14 +3,14 @@ layout: default
 ---
 <div class="post">
 
-  <header class="post-header" ng-init="controller.pageInit('{{page.postid}}')">
+  <header class="post-header" ng-init="controller.pageInit('{{page.postid}}', '{{page.title}}')">
     <h1 class="post-title">{{ page.title }}</h1>
     <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
     <p class="post-meta">[!controller.hits!] views</p>
       <!--<button ng-click="controller.like(true)">i++ ([!controller.incs!])</button>-->
       <!--<button ng-click="controller.like(false)">i-- ([!controller.decs!])</button>-->
   </header>
-
+  <button type="button" ng-if="controller.user.username == 'SnareChops'" ng-click="controller.pushPost('{{page.postid}}','{{page.title}}','{{page.description}}','{{page.url | prepend: site.baseurl | prepend: site.url }}', '{{page.date}}')">Push Post</button>
   <article class="post-content">
     {{ content }}
   </article>
