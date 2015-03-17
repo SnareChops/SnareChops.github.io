@@ -10,7 +10,7 @@ layout: default
       <!--<button ng-click="controller.like(true)">i++ ([!controller.incs!])</button>-->
       <!--<button ng-click="controller.like(false)">i-- ([!controller.decs!])</button>-->
   </header>
-  <button type="button" ng-if="controller.user.username == 'SnareChops'" ng-click="controller.pushPost('{{page.postid}}','{{page.title}}','{{page.description}}','{{page.url | prepend: site.baseurl | prepend: site.url }}', '{{page.date}}')">Push Post</button>
+  <button type="button" ng-if="controller.user.username == 'SnareChops'" ng-click="controller.pushPost('{{page.postid}}','{{page.title}}','{{page.description | uri_escape }}','{{page.url | prepend: site.baseurl | prepend: site.url }}', '{{page.date}}')">Push Post</button>
   <article class="post-content">
     {{ content }}
   </article>
