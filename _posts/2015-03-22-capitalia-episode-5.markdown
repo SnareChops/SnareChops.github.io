@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Capitalia - A Crazy Jump Into Angular 2 - Episode 4"
+title:  "Capitalia - A Crazy Jump Into Angular 2 - Episode 5"
 date:   2015-03-22
 category: series
 tags: capitalia series
